@@ -1,0 +1,42 @@
+.container{
+	background-color: lightgrey;
+	border: 10px solid;
+	padding: 100px;
+
+}
+.top{
+	margin top:40px;
+	display: flex;
+	justify-content: space-between;
+	line-height: 5px;
+}
+.top h1{
+	margin-top:180px;
+	font-size: 55px;
+	font-weight: bold;
+	color: red;
+}
+.top h4{
+	font-size: 25px;
+	text-align: end;
+}
+.appu{
+	text-align: end;
+}
+.image{
+	margin-top:0px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.content{
+	font-size: 25px;
+}
+.head{
+	color: blue;
+}
+.items{
+	font-size: 20px;
+}
+.last{
+	text-align: end;
+}
