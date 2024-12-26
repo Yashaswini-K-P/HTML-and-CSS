@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body{
+	line-height: 1.4;
+	font-weight: 300;
+	font-family: "Roboto",sans-serif;
+}
+.Front{
+	background-image:url(https://nypost.com/wp-content/uploads/sites/2/2018/12/Vacation_Family.jpg?quality=90&strip=all);
+	min-height: 100vh;
+	background-position: center;
+	background-size: 90%;
+	background-repeat: no-repeat;
+	opacity:80%;
+}
+.text-container{
+	color: red;
+	font-size: 50px;
+	font-weight: 400;
+	max-height: 200px;
+	max-width: 900px;
+	margin: 0 auto;
+	padding-top:80px;
+	letter-spacing: 3px;
+	text-align:center;
+}
+.kk{
+	color: green;
+	padding-left:100px ;
+	font-weight: 400;
+}
+.black-box{
+	background-color: black;
+	padding:20px;
+}
+.black-box h1{
+	font-weight:200;
+	font-size:50px;
+	text-align: center	;
+	color: 	white;
+}
+.place{
+	display:grid;
+	padding-top: 80px;
+	padding-bottom:50px;
+	gap:19px;
+	grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+	margin: 50px,auto;
+}
+.grid_item {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+	max-width:320px;
+	height: 400px;
+	border-radius: 10px;
+	box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+}
+.card-content{
+	padding: 20px;
+}
+.card-content h1{
+	margin-bottom: 5px;
+}
+.card:hover{
+	transform:scale(1.05);
+	box-shadow: black;
+	transform: 1.5s;
+}
+.bottom{
+	display: flex;
+}
+.contact{
+	background-color:lightblue;
+}
+.about{
+	background-color: grey;
+}
+.contact,.about{
+	padding: 30px;
+	min-height: 200px;
+}
+li{
+	font-size:12px;
+}
+.last{
+	line-height-step: 2px;
+}
