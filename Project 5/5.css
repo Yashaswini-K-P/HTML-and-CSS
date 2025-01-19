@@ -1,0 +1,164 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html, body{
+	line-height: 1.4;
+	font-weight: 300;
+}
+button{
+	font-size: 18px;
+	background-color:#ffc066;
+	color:black;
+	align-self: flex-start;
+	border: none;
+	padding: 5px 18px;
+	transition: 0.2s ease-in-out;
+}
+button:hover{
+	border-radius: 10px;
+	opacity: 0.8;
+	transition: 0.2s ease-in-out;
+}
+
+h1{
+	font-size:60px;
+}
+/*Navigation*/
+nav{
+	box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+	position: sticky;
+	margin-bottom: 90px;
+	background: white;
+}
+.bar_container{
+	padding-right: 20px;
+}
+.navigation{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.container{
+	max-width:1400px;
+	margin: 0 auto;
+}
+/*Main section*/
+.main_section{
+	display: flex;
+	gap: 150px;
+	justify-content: center;
+	align-items: center;
+}
+.main_content{
+	font-size: 22px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+.tag{
+	font-size: 22px;
+	background-color: green;
+	align-self: flex-start;
+	color: white;
+	padding: 3px 10px;
+}
+.features{
+	margin-top:80px;
+	display: flex;
+	gap: 150px;
+	justify-content: center;
+	padding-bottom: 50px;
+}
+.feature{
+	display: flex;
+	padding: 10px;
+	padding-bottom: 5px;
+	gap: 5px;
+}
+.feature:hover{
+	transition: 0.2s ease-in-out;
+	box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.4);
+}
+.feature_content{
+	justify-content: center;
+}
+.divider{
+	border: solid 1px grey;
+	margin: 30px 0;
+}
+/*Menu Section*/
+.menu{
+	display: flex;
+	flex-direction: column;
+	gap:50px;
+	align-items: center;
+}
+.menu .tag{
+	align-self: center;
+}
+.grid{
+	display: grid;
+	gap: 8px;
+	transition: 0.3s;
+	grid-template-areas: 
+	"i1 i1 i2 i3"
+	"i1 i1 i2 i7"
+	"i4 i5 i6 i7";
+}
+.i1{
+	grid-area:i1;
+}
+.i2{
+	grid-area:i2;
+}
+.i3{
+	grid-area:i3;
+}
+.i4{
+	grid-area:i4;
+}
+.i5{
+	grid-area:i5;
+}
+.i6{
+	grid-area:i6;
+}
+.i7{
+	grid-area:i7;
+}
+.grid_image{
+	border-radius: 10px;
+	overflow: hidden;
+	padding-bottom: 50px;
+}
+.grid_image:hover img{
+	scale: 1.0;
+}
+.footer_container{
+	display:flex;
+	padding:30px;
+	justify-content: space-between;
+}
+footer{
+	background-color: lightsteelblue;
+}
+.link_lists{
+	margin-bottom: 20px;
+	font-weight: 2px;
+}
+.news{
+	margin-bottom: 20px;
+}
+.link_lists ul{
+	list-style: none;
+}
+.link_lists ul li{
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+.icons{
+	display: flex;
+	justify-content: space-between;
+}
